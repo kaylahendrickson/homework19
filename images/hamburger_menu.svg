@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="36" viewBox="0 0 66 36">
+  <g id="hamburger_menu" transform="translate(-1820 -27)">
+    <g id="Rectangle_33" data-name="Rectangle 33" transform="translate(1820 27)" stroke="#000" stroke-width="1">
+      <rect width="66" height="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="65" height="5" fill="none"/>
+    </g>
+    <g id="Rectangle_34" data-name="Rectangle 34" transform="translate(1820 42)" stroke="#000" stroke-width="1">
+      <rect width="66" height="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="65" height="5" fill="none"/>
+    </g>
+    <g id="Rectangle_35" data-name="Rectangle 35" transform="translate(1820 57)" stroke="#000" stroke-width="1">
+      <rect width="66" height="6" stroke="none"/>
+      <rect x="0.5" y="0.5" width="65" height="5" fill="none"/>
+    </g>
+  </g>
+</svg>

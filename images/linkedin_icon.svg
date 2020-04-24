@@ -1,0 +1,17 @@
+<svg id="linkedin" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_27" data-name="Group 27" transform="translate(0 17.516)">
+    <g id="Group_26" data-name="Group 26">
+      <rect id="Rectangle_56" data-name="Rectangle 56" width="10.566" height="32.484"/>
+    </g>
+  </g>
+  <g id="Group_29" data-name="Group 29" transform="translate(17.516 17.516)">
+    <g id="Group_28" data-name="Group 28">
+      <path id="Path_27" data-name="Path 27" d="M184.582,160.381c-.112-.035-.219-.074-.337-.106-.142-.032-.284-.059-.428-.083a9.471,9.471,0,0,0-1.9-.192c-6.16,0-10.067,4.48-11.355,6.21V160H160v32.484h10.566V174.766s7.985-11.121,11.355-2.953v20.672h10.563V170.563A10.535,10.535,0,0,0,184.582,160.381Z" transform="translate(-160 -160)"/>
+    </g>
+  </g>
+  <g id="Group_31" data-name="Group 31" transform="translate(0.25)">
+    <g id="Group_30" data-name="Group 30">
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="5" cy="5" r="5"/>
+    </g>
+  </g>
+</svg>
