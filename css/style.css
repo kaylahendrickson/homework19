@@ -80,8 +80,9 @@ button {
 }
 
 .tabList {
-    background: #FFFFFF;
-    color: #333333;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
     font-weight: 600;
     line-height: 1.3;
     text-decoration: none;
@@ -95,7 +96,6 @@ button {
     border: 2px solid #000000;
     background-color: #FFFFFF;
     font-weight: normal;
-    color: #ffffff;
     padding: 0.5em 1.5em;
 }
 
@@ -127,6 +127,10 @@ button {
     display: none;
 }
 
+.tabList > .checked {
+    background-color: #000000; 
+    color: #FFFFFF;
+}
 
 .workHeading {
     display: flex;
