@@ -323,6 +323,9 @@ footer > h2 {
         /* padding: 10px; */
         width: 80%;
     }
+    .tabList {
+        flex-direction: column;
+    }
     .tab ul {
         display: grid;
         grid-template-columns: 1fr;
