@@ -137,11 +137,17 @@
     text-decoration: none;
     transition: color 0.4s ease;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover {
     color: #87C6BD;
     text-decoration: none;
     transition: color 0.4s ease;
+}
+
+@media screen and (max-width: 600px) {
+    .menu-wrap .menu > div > div > ul > li {
+        font-size: 0.5rem;
+    }
 }
