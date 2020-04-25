@@ -132,8 +132,8 @@ button {
 }
 
 .tabList {
-    background-color: #FFFFFF;
-    color: #000000;
+    /* background-color: #FFFFFF; */
+    /* color: #000000; */
     font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
     font-weight: 600;
     line-height: 1.3;
@@ -144,18 +144,13 @@ button {
     justify-content: space-around;
     margin: 3em 15%;
 }
-.tabList li {
-    border: 2px solid #000000;
-    background-color: #FFFFFF;
-    font-weight: normal;
-    padding: 0.5em 1.5em;
-}
 
 .tab {
     display: flex;
     justify-content: center;
     border: 2px solid #000000;
     background-color: #EFEFEF;
+    border-radius: 4px;
     font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
     font-weight: 500;
     line-height: 1.3;
@@ -166,12 +161,7 @@ button {
     cursor: pointer;
 }
 
-.tab:hover {
-    background-color: #87C6BD;
-    color: #FFFFFF;
-    transition: color 0.4s ease;
-}
-
+/* stlying inside skills tab and using css grid layout */
 .tab ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -189,16 +179,26 @@ button {
     display: none;
 }
 
-.tabList > .checked {
+.tabButton > button {
+    background-color: #FFFFFF; 
+    color: #000000;
+    border: 2px solid #000000;
+}
+.tabButton .checked {
     background-color: #000000; 
     color: #FFFFFF;
+    /* border: 2px solid #000000; */
 }
-
-.tabList > .checked:hover {
+.tabButton > button:hover {
     background-color: #87C6BD;
     color: #FFFFFF;
+    border: 2px solid #87C6BD;
+    transition: background-color 0.4s ease;
     transition: color 0.4s ease;
+    transition: border 0.4s ease;
 }
+
+
 
 .workHeading {
     display: flex;
