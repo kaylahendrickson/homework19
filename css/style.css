@@ -304,6 +304,17 @@ footer > h2 {
         /* padding: 10px; */
         width: 100%;
     }
+    .aboutLanding {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .aboutRight {
+        width:100%;
+    }
+    .aboutLeft {
+        width: 100%;
+    }
 
 }
 @media screen and (max-width: 600px) {
