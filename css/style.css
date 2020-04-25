@@ -1,3 +1,5 @@
+
+/* global styling */
 :root {
     --primary-color: rgba(239, 239, 239, 1);
     --overlay-color: rgba(239, 239, 239, 1);
@@ -10,6 +12,7 @@
     padding: 0;
 }
 
+/* logo styling */
 .logo {
     display: flex;
     width: 100%;
@@ -18,23 +21,68 @@
     margin-top: 10px;
 }
 
+.logo img {
+    width: 8%;
+}
+
+/* landing stlying */
+
 .landing {
-    padding: 30px;
+    /* padding: 2em; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .landingLeft {
-    margin: 20px;
-    padding: 10px;
-    width: 40%;
+    margin: 5% 5%;
+    padding: 1em;
+    width: 45vw;
+}
+
+.landingLeft img {
+    width: 100%;
 }
 
 .landingRight {
-    padding: 40px;
-    width: 40%;
+    padding: 1em;
+    width: 40vw;
+    /* margin-left: 5%; */
 }
+
+.landingRight h1 {
+    margin: 1em;
+}
+
+/* landing for the about page */
+
+.aboutLanding {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.aboutLeft {
+    margin: 5% 5%;
+    padding: 1em;
+    width: 45vw;
+}
+
+.aboutLeft img {
+    width: 100%;
+}
+
+.aboutRight {
+    padding: 1em;
+    width: 40vw;
+    margin-top: 5%;
+}
+
+.aboutRight h1 {
+    margin: 1em;
+}
+
+
 
 h1, h2, h3, h4, h5, a {
     font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
@@ -43,6 +91,8 @@ h1, h2, h3, h4, h5, a {
 
 p {
     font-family: 'Whitman', serif;
+    margin: 2em;
+    line-height: 1.5;
 }
 
 a {
@@ -63,9 +113,11 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    border-radius: 4px;
     font-size: 16px;
     margin: 30px;
     font-family: "Mr Eaves San OT", "Josefin Sans", sans-serif;
+    cursor: pointer;
   }
 
   button:hover {
@@ -111,6 +163,13 @@ button {
     font-size: 100%;
     padding: 2em;
     margin: 1em 20%;
+    cursor: pointer;
+}
+
+.tab:hover {
+    background-color: #87C6BD;
+    color: #FFFFFF;
+    transition: color 0.4s ease;
 }
 
 .tab ul {
@@ -133,6 +192,12 @@ button {
 .tabList > .checked {
     background-color: #000000; 
     color: #FFFFFF;
+}
+
+.tabList > .checked:hover {
+    background-color: #87C6BD;
+    color: #FFFFFF;
+    transition: color 0.4s ease;
 }
 
 .workHeading {
