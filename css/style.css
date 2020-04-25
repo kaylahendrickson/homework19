@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, a {
 
 p {
     font-family: 'Whitman', serif;
-    margin: 2em;
+    margin: 1.5em;
     line-height: 1.5;
 }
 
@@ -210,30 +210,31 @@ button {
 
 .project {
     display: flex;
-    /* justify-content: ; */
+    justify-content: space-around;
     align-items: center;
-    margin: 40px;
 }
 
 .projectLeft {
-    padding: 60px;
-    margin-right: 10px;
-    width: 40%;
+    padding: 2em;
+    /* margin-right: 1em; */
+    width: 40vw;
 }
 .projectRight {
-    /* margin-left: 20px; */
-    padding: 20px;
-    width: 40%;
+    padding: 1em;
+    width: 45vw;
+}
+.projectRight img {
+    width: 100%;
 }
 
 .projectLeft > h5 {
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     font-size: 14px;
     font-weight: 500;
 }
 
 .projectLeft > h4 {
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     font-size: 24px;
     font-weight: 500;
 }
@@ -245,12 +246,11 @@ footer {
     align-items: center;
     width: 100%;
     background-color: #EFEFEF;
-    padding: 40px;
+    padding: 2em;
 }
 
 footer > h2 {
-    margin-bottom: 10px;
-    font-weight: 500;
+    margin-bottom: 1em;
 }
 
 .socialIcons {
@@ -264,24 +264,25 @@ footer > h2 {
     .landing {
         flex-direction: column;
         padding: 10px;
+        justify-content: center;
     }
     .landingLeft {
-        width: 60%;
+        width: 100%;
     }
     .landingRight {
         padding: 10px;
-        width: 60%;
+        width: 100%;
     }
     .project {
         flex-direction: column;
     }
     .projectLeft {
         padding: 10px;
-        width: 60%;
+        width: 100%;
     }
     .projectRight {
         padding: 10px;
-        width: 60%;
+        width: 100%;
     }
 
 }
